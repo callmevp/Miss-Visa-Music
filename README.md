@@ -1,4 +1,5 @@
-# VCMusicPlayer v3.0
+# VisaMusic
+[![VisaMusic logo](https://telegra.ph/file/0a5292202790ccd237277.png)](https://t.me/Visa_Support)
 
 - An Telegram Bot to Play Radio/Music in Channel or Group Voice Chats.
 - A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
@@ -20,12 +21,12 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LushaiMusic/VCMusicPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/callmevp/Miss-Visa-Music)
 
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/LushaiMusic/VCMusicPlayer
+git clone https://github.com/callmevp/Miss-Visa-Music
 cd VCMusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -63,7 +64,7 @@ python3 main.py
 - Automatic restart even if heroku restarts.
 
 #### Support
-Join Now Telegram [VC Music Live Sets](https://t.me/c/1481808444/131)
+Join Now Telegram [VisaMusic](https://t.me/Visa_Support)
 
 ## Requirements
 
@@ -78,8 +79,8 @@ Join Now Telegram [VC Music Live Sets](https://t.me/c/1481808444/131)
 
 ## License
 ```sh
-VC Music Player, Telegram Voice Chat Userbot
-Copyright (C) 2021  Zaute Km
+VisaMusic, Telegram Voice Chat Userbot
+Copyright (C) 2021  
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
