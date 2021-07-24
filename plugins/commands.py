@@ -57,11 +57,11 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+        InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/callmevp/Miss-Visa-Music'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('👥 Group', url='https://t.me/Visa_Support'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/MissVisa_Updates'),
     ],
     [
         InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
@@ -78,16 +78,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/LushaiMusic/VCMusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/callmevp/Miss-Visa-Music'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 Group', url='https://t.me/Visa_Support'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/MissVisa_Updates'),
         ],
-        [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/1481808444/131'),
         
-        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(
