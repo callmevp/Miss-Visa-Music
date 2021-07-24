@@ -27,7 +27,7 @@ Click the below button to watch the video tutorial on deploying
 
 ```sh
 git clone https://github.com/callmevp/Miss-Visa-Music
-cd VCMusicPlayer
+cd Miss-Visa-Music
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 main.py
